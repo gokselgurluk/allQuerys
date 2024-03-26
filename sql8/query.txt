@@ -1,0 +1,7 @@
+UPDATE employee
+SET name='deneme',
+	email='xxxxx',
+	birthday='2000-02-20'
+WHERE id BETWEEN 1 and 5
+RETURNING *;
+	
