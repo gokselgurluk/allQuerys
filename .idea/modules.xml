@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/sql4.iml" filepath="$PROJECT_DIR$/sql4.iml" />
+      <module fileurl="file://$PROJECT_DIR$/allQuerys.iml" filepath="$PROJECT_DIR$/allQuerys.iml" />
     </modules>
   </component>
 </project>
