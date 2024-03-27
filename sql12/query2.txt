@@ -1,0 +1,5 @@
+SELECT COUNT(*) AS film_sayisi
+FROM film
+WHERE rental_rate = (
+    SELECT MAX(rental_rate) FROM film
+);

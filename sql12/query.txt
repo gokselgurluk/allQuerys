@@ -1,0 +1,8 @@
+SELECT title, length,(SELECT AVG(length)FROM film) as AVG
+FROM film
+WHERE length > ALL
+(
+  SELECT AVG(length)
+  FROM film
+)
+ORDER BY length asc
